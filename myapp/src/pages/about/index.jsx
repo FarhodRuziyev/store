@@ -5,7 +5,6 @@ export default function About() {
     <>
       <div>
         <div>
-          <h1>About</h1>
           <div>
             <h1>Lorem ipsum dolor sit amet consectetur</h1>
             <p>Lorem ipsum, dolor sit amet  adipisicing elit. Alias culpa tempore natus cumque? Assumenda nesciunt iusto sequi, vero, nam harum cupiditate et consectetur aperiam vel omnis eveniet delectus rerum! Consequuntur repudiandae exercitationem autem amet architecto numquam eum sunt</p>
