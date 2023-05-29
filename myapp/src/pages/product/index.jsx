@@ -6,9 +6,7 @@ import "./products.scss";
 export default function Products() {
   const { id } = useParams();
 
-  const products = useGetData(["Products"], `/products/category/${id}`);
-
-  console.log(products?.data, "pppppppppppppppppppppppp");
+  const products = useGetData(["Products", id], `/products/category/${id}`);
 
   return (
     <>

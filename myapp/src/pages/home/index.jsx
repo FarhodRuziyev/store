@@ -12,6 +12,8 @@ export default function Home() {
         <div className="rasm">
             <img src="./img/image2.jpg" alt="#" />
         </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam maxime, rerum reprehenderit animi corrupti aliquid est tempore neque magnam! Nam, fuga eveniet. Debitis ratione commodi illum, nostrum ipsum expedita placeat.</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
       </div>
     </>
   )
