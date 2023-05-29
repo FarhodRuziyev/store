@@ -6,14 +6,15 @@ import "./main.scss";
 
 export default function Message() {
   const { mutate } = useMutation((data) => {
-    instance.post("message", { data }).then((ms) => console.log(ms));
+    instance.post("/message", data).then((ms) => console.log(ms));
   });
 
   const { control, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-    mutate(data);
-    console.log(data);
+    const fall = { ...data, status: "PENDING" };
+    mutate(fall);
+    console.log(fall);
     reset();
   };
   return (
