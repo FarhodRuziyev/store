@@ -1,0 +1,21 @@
+.home{
+  padding: 4rem;
+  display: grid; grid-template-columns: 2fr 3fr; gap: 3%;
+  width: 100%;
+ 
+  @media(max-width:800px){
+  display: grid; grid-template-columns: 1fr;
+  }
+  .text{
+    display: flex; flex-direction: column;  row-gap: 1rem;
+    padding: 2rem;
+    height: auto;
+  }
+  .rasm{
+    border: 1px solid rgba(0, 128, 0, 0.285);
+    padding: 1rem;
+    img{
+      width: 100%;
+    }
+  }
+} 

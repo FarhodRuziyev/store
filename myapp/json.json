@@ -1,0 +1,30 @@
+{
+  "id": "2c6fa48c-cb3c-49be-8d07-272407e0e888",
+  "gender": "BOTH",
+  "color": "12",
+  "active": true,
+  "price": 12,
+  "size": "12",
+  "type": "12",
+  "name_Uz": "12",
+  "name_Ru": "12",
+  "name_En": "12",
+  "description_Uz": "12",
+  "description_Ru": "12",
+  "description_En": "12",
+  "photoId": "1ee5a47c-03f7-47d6-ab8a-39e67325d941",
+  "categoryId": "475a1994-d7c9-4897-8aa3-6c2dfc4ab7ab",
+  "discount": 12,
+  "Category": {
+    "id": "475a1994-d7c9-4897-8aa3-6c2dfc4ab7ab",
+    "name_Uz": "Kitoblar bor EKAN",
+    "name_Ru": "Книги",
+    "name_En": "Книги",
+    "photoId": "cd4a88ca-6a3a-4351-9255-db0437179daa"
+  },
+  "photo": {
+    "id": "1ee5a47c-03f7-47d6-ab8a-39e67325d941",
+    "createdAt": "2023-05-25T06:43:47.605Z",
+    "path": "1684997027602 215494022.png"
+  }
+}

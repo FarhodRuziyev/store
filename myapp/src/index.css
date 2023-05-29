@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.7s ease-in-out !important;
+}
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+ color: navy; 
+ transition: all 0.1s ease-in-out !important;
+}
+
+li {
+  list-style: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.img {
+  padding-left: 3.5em;
+  width: 80%;
+}
+.img img {
+  width: 120%;
+}
